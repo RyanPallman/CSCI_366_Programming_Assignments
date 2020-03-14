@@ -148,6 +148,7 @@ string Client::render_action_board() {
         for (int k = 0; k < board_size; k++) {
             result += to_string(board[j][k]);
         }
+        result += "\n";
     }
 
     return result;
